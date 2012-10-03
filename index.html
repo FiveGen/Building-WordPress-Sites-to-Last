@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Building WordPress Sites to Last</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -15,7 +15,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+		<link rel="stylesheet" href="presentation-files/presentation-overrides.css">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -40,8 +41,57 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
+					<h1>Building<br/>WordPress Sites<br/> to Last</h1>
+					<p>By <a href="https://twitter.com/zekeweeks">@ZekeWeeks</a><br/>
+					<a href="http://zekeweeks.com">http://zekeweeks.com</a></p>
+				</section>
+				
+			  <section>
+  			  <h1>Hi!</h1>
+  			  <img src="presentation-files/SF-Skyscraper.jpg" alt="SF-Skyscraper" width="" height="" />
+			  </section>
+			  <section>
+  			  <img src="presentation-files/colorado.png" alt="colorado" width="540" height="360">
+			  </section>
+			  <section>
+  			  <img src="presentation-files/wordpress-logo-stacked-rgb.png" alt="wordpress-logo-stacked-rgb" width="499" height="310" class="rawimg whitebg" style="padding: 1em;">
+			  </section>
+			  
+			  <section>
+  			  <h3>My <img src="presentation-files/wordpress-logo-hoz-rgb.png" alt="wordpress-logo-hoz-rgb" width="249" height="56.5" class="rawimg" alt="WordPress"> Story</h3>
+  			  <ul>
+    			  <li class="fragment">Already learning front-end HTML &amp; CSS</li>
+    			  <li class="fragment">Tried lots of blogging web apps</li>
+    			  <ul>
+    			   <li class="fragment">Fun for a geek to tinker...</li>
+    			   <li class="fragment">...but a distraction from compelling content.</li>
+    			  </ul>
+  			  </ul>
+			  </section>
+			  <section>
+			    <h2><img src="presentation-files/wordpress-logo-hoz-rgb.png" alt="wordpress-logo-hoz-rgb" width="332" height="75.33" class="rawimg" alt="WordPress"> is <span style="text-decoration: underline;">different</span>.</h2>
+			    <p><a href="http://wordpress.org/about/philosophy">http://wordpress.org/about/philosophy</a></p>
+			    <ul>
+			     <li class="fragment"><strong>Out of the Box:</strong> <q>You shouldn't have to battle to use the standard functionality of WordPress.</q></li>
+			     <li class="fragment"><strong>Design for the Majority:</strong> <q>The average WordPress user simply wants to be able to write without problems or interruption.</q></li>
+			     <li class="fragment"><strong>Clean, Lean, and Mean:</strong> Solid set of features to meet &ge;80% of users' needs. Themes and plugins address the next 20%</li>
+  			     
+			     </span>
+			    
+			  </section>
+			  
+			  <section>
+			     <blockquote>Solid set of features to meet &ge;80% of users' needs</blockquote>
+			     <h4 class="fragment">Hold on a second...</h4>
+			  </section>
+				
+				<section>
+				  <p><q cite="http://codex.wordpress.org/Managing_Plugins">The majority of WordPress users don't require Plugins, or only require a few...</q> &ndash;<cite>WordPress Codex</cite></p>
+				</section>
+				<section>
+				  <img src="presentation-files/druplicon.png" alt="druplicon" width="175" height="200">
+				  <blockquote><p>Rule #35: "There's a Drupal module for that."</p></blockquote>
+				  <p>&ndash;Robert Douglass at DrupalCamp Stockholm</p>
 				</section>
 				
 				<section>
@@ -317,7 +367,7 @@ function linkify( selector ) {
 				progress: true,
 				history: true,
 				
-				theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
+				theme: Reveal.getQueryHash().theme || 'sky', // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/linear(2d)
 
 				// Optional libraries used to extend on reveal.js

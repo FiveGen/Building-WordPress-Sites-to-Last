@@ -1,0 +1,17 @@
+/* Override styles for these images */
+.reveal section img.rawimg {
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.reveal section .whitebg {
+  background-color: #fff;
+}
+
+.reveal section .vcenter {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+}
